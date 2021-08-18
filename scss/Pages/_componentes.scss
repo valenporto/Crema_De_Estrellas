@@ -1,0 +1,124 @@
+/* Infaltables */
+
+*{margin: 0; padding: 0;}
+
+    html { 
+        font-size: 62,5% ;}
+
+    body { 
+        background-color: $colorBody ;}
+
+    hr {
+        margin: 5px;}
+
+/* Animaciones  */
+
+.animacion {
+    transition: all 2s;}
+
+.animacion:hover {
+    width: 400px;
+    height: 320px;}
+
+/* Titulo */
+
+.header_logo{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-items: center;
+}
+.header_imagen_logo{
+    height: 150px;
+    margin: 10px;
+}
+
+/* Letras */
+
+.letra_Index { 
+    font-size: 250%;
+    font-family: $letra;
+    letter-spacing: 2px;
+    text-align: center;}
+
+.texto {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-family: $letra;
+    color: $colorTexto }
+
+.texto ul { padding-left: 0;}
+
+.letra_Subtitulo {
+    font-family: $letra;
+    font-weight:lighter;
+    color: $colorLetra;
+    text-align: center; }
+
+
+/* Navegacion*/
+
+.ul {
+        
+    list-style: none;
+    font-size: 0;}
+
+.li {  
+    text-align: center;
+    width: 20%;
+    font-size: 17px;
+    background-color: $colorNavegacion;} 
+
+    .barra_Navegacion {
+        font-size: 150%;
+        text-decoration: none;
+        font-family: $letra;
+        color: white;}
+
+/* Formulario*/
+
+.form {
+    border: solid $colorFormulario;
+    border-radius: 15px;}
+
+.letra_Form {
+    font-size: 150%;
+    font-family: $letra;
+    color: $colorLetra; }
+
+button{
+    background-color: white;}
+
+/* Footer*/
+
+footer {
+    height: 50%;
+    margin-top: 5px;
+    background-color: rgb(146, 145, 168);
+    color: white;}
+
+.navegacionFooter{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 0.3fr;
+}
+
+.imagenes_Redes {
+    align-items: center;
+    justify-items: center;
+    height: 30px;
+    width: 30px;
+    grid-column-gap: 15px;}
+
+.navfooter {
+    text-decoration: none;
+    text-align: center;
+    list-style: none;}
+
+/* Varios */
+
+@each $tamanioLetra in $lista {
+    .tamanio-#{$tamanioLetra} {
+        font-size: $tamanioLetra;
+    } }

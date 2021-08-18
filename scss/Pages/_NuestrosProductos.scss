@@ -1,0 +1,16 @@
+.div_productos {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto ;
+    grid-row-gap: 10px;
+    justify-items: center;}
+
+.div_productos_tamanio {
+    width: $anchoNp/2;
+    height: $altoNp/2;}
+
+.div_P_T_nuevo {
+    @extend .div_productos_tamanio; 
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px darkgray; }

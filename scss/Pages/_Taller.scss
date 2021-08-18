@@ -1,0 +1,14 @@
+.gridTaller {
+    display: grid;
+    grid-template-columns: 1fr ;
+    justify-items: center;}
+
+.divCarousel {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;}
+
+.bordeCarousel{
+    border-radius: 15px;}

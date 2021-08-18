@@ -1,0 +1,19 @@
+.gridSn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: $colorBodyDos;}
+
+.imagen_Sn {
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px darkgray;}
+
+@mixin imagenes ($ancho, $alto) {
+    width: $ancho;
+    height: $alto; }
+
+.nuevoImg {
+    @include imagenes (300px, 220px)
+}

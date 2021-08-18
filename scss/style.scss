@@ -1,0 +1,49 @@
+
+
+/* Variables */
+
+$colorBody:  #edf3f3 ;
+
+$letra: 'Bebas Neue', cursive ;
+
+$colorLetra: #a83885 ;
+
+$colorTexto:  #0D3B66;
+
+$colorFormulario: #1e1d3a ;
+
+$colorNavegacion: #9291A8 ;
+
+$colorBodyDos: #beb5ab;
+
+$anchoNp: 600px;
+
+$altoNp: 440px;
+
+$lista: 25px, 45px, 20px,30px; 
+
+$anchoIndex: 200%;
+
+/* Pages */
+
+@import "./Pages/componentes";
+
+@import"./Pages/Index";
+
+@import "./Pages/NuestrosProductos";
+
+@import "./Pages/Responsive";
+
+@import "./Pages/SobreNosotros";
+
+@import "./Pages/Taller";
+
+@import "./Pages/pagina404";
+
+
+
+
+
+
+
+

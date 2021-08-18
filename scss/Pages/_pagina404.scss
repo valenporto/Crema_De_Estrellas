@@ -1,0 +1,11 @@
+.error {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto ;
+    align-items: center; 
+    justify-content: center;}
+
+.imagenError {
+    width: $anchoNp;
+    height: $altoNp;
+}
