@@ -118,6 +118,10 @@ footer {
 
 /* Varios */
 
+.bordes-br {
+    padding: 2px;
+}
+
 @each $tamanioLetra in $lista {
     .tamanio-#{$tamanioLetra} {
         font-size: $tamanioLetra;
