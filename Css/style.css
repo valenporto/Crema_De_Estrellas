@@ -143,6 +143,15 @@ footer {
 }
 
 /* Varios */
+.bordes-hr {
+  border-bottom: solid #bebebe 1px;
+  margin-bottom: 10px;
+}
+
+.bordes-br {
+  margin-bottom: 10px;
+}
+
 .tamanio-25px {
   font-size: 25px;
 }
