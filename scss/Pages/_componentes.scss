@@ -6,6 +6,7 @@
         font-size: 62,5% ;}
 
     body { 
+        width: 100%;
         background-color: $colorBody ;}
 
     hr {
@@ -60,21 +61,35 @@
 /* Navegacion*/
 
 .ul {
-        
     list-style: none;
     font-size: 0;}
 
 .li {  
+    width: 100%;
     text-align: center;
     width: 20%;
     font-size: 17px;
     background-color: $colorNavegacion;} 
 
-    .barra_Navegacion {
-        font-size: 150%;
-        text-decoration: none;
-        font-family: $letra;
-        color: white;}
+.barra_Navegacion {
+    width: 100%;
+    font-size: 150%;
+    text-decoration: none;
+    font-family: $letra;
+    color: white;}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    align-content: center;
+    align-items: stretch; 
+    background-color: $colorBody; }
+
+.navbar .container-fluid {
+    background-color: $colorBody; }
 
 /* Formulario*/
 
@@ -99,10 +114,10 @@ footer {
     color: white;}
 
 .navegacionFooter{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.3fr 0.3fr;
-}
+    width: 100%;
+        display:flex;
+    justify-content: space-around;
+    flex-direction: row; }
 
 .imagenes_Redes {
     align-items: center;

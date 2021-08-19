@@ -1,12 +1,12 @@
-.div_productos {
+.flex-productos {
+    display: flex;
     width: 100%;
-    display: grid;
-    grid-template-columns: auto auto ;
-    grid-template-rows: auto auto ;
-    grid-row-gap: 10px;
-    justify-items: center;}
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly; }
 
 .div_productos_tamanio {
+    margin: 40px;
     width: $anchoNp/2;
     height: $altoNp/2;}
 
