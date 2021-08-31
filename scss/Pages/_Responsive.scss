@@ -51,14 +51,14 @@
         background-color: $colorBodyDos; }
 
 
-    .gridTaller {
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-items: center;} 
+.gridTaller {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;} 
 
-    .navegacionFooter{
-        width: 100%;
-        display:flex;
-        justify-content: space-around;
-        flex-direction: column; } }
+.navegacionFooter{
+    width: 100%;
+    display:flex; 
+    justify-content: space-around;
+    flex-direction: column; } }
 

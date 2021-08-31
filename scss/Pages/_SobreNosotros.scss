@@ -6,7 +6,7 @@
     align-items: center;
     border-radius: 15px;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 10px; 
     background-color: $colorBodyDos; }
 
 .divSn {
@@ -21,5 +21,4 @@
     height: $alto; }
 
 .nuevoImg {
-    @include imagenes (300px, 220px)
-}
+    @include imagenes (300px, 220px) }
